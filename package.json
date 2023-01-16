@@ -1,0 +1,13 @@
+{
+  "name": "trpc-prisma-react",
+  "private": "true",
+  "scripts": {
+    "start": "concurrently \"npm run start --workspace=client\" \"npm run start --workspace=server\""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
